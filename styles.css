@@ -102,7 +102,11 @@ p{
     color: #ffffff;
 }
 
-
+script{
+    border-radius: 25px;
+    border: 4px inset skyblue;
+    padding: 20px;
+}
 
 /*web Responsivo */
 @media (max-width: 900px){

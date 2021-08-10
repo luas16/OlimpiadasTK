@@ -58,7 +58,7 @@
                 <h2>Atletas Destacados</h2>
                 <span>Apoyemos a nuestros atletas mandandoles un mensaje.</span><br>
 
-                <form action="confirmacion.html" method="POST" enctype="multipart/form-data">
+                <form action="#" enctype="multipart/form-data">
                     <span>Selecciona el nombre del atleta</span>
                     <select name="sAtletas">
                         <option value="1">Kevin Cordón – Bádminton</option>
@@ -69,10 +69,18 @@
                     </select><br><br>
                     <input type="text" placeholder="Escriba su nombre"><br><br>
                     <textarea name="texto" rows="4" cols="40" placeholder="Escriba un mensaje"></textarea>
-                    <input type="submit" value = "Enviar">
+                    <input type="button" onclick="confirmacion()" value="Enviar"  />
                 </form>
+
             </div>
         </section>  
     </div>
+    <script type="text/javascript">
+        function confirmacion() {
+        //Ingresamos un mensaje a mostrar
+        var mensaje = alert("Mensaje enviado, Gracias por el apoyo!!");
+        }
+        </script>
+    
 </body>
 </html>
