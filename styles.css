@@ -20,14 +20,7 @@ font-family: 'Libre Baskerville', serif;
     
 }
 
-a{
-    color: #000000;
-    text-decoration: none;
 
-}
-
-
-/*Estilizado de la imagen principal*/
 .imgPortada{
     width: 100%;
     height: 500px;
@@ -45,24 +38,6 @@ a{
     margin-bottom: 10px;
 }
 
-.btn{
-    cursor: pointer;
-    display: inline-block;
-    border: 0;
-    font-weight: bold;
-    padding: 10px 20px;
-    background: #262626;
-    color: #ffffff;
-    font-size: 15px;
-    border: 1px solid #fff;
-    margin: 10 px 0;
-}
-
-.btn:hover{
-    opacity: .5;
-}
-
-/* Estilizado de los Servicios*/
 
 .atletas{
     display:  grid;
@@ -94,7 +69,7 @@ a{
     text-decoration: underline;
 }
 
-/* Estilizado del baner uno de servicios*/
+
 .atletas-banner-uno{
     width: 100%;
     height: 350px;
